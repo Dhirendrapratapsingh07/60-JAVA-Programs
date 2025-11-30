@@ -1,4 +1,4 @@
-// Armstrong numbers between a given range
+// Java Program to print Armstrong numbers between a given range
 public class ArmstrongRange {
     static boolean isArmstrong(int num) {
         int temp = num, sum = 0, digits = String.valueOf(num).length();
@@ -17,4 +17,5 @@ public class ArmstrongRange {
             if (isArmstrong(i)) System.out.print(i + " ");
         }
     }
+
 }
