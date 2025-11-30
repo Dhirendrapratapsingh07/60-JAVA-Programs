@@ -1,4 +1,4 @@
-// Swap two numbers using bitwise XOR
+// Java Program to swap two numbers using bitwise operator
 public class SwapBitwise {
     public static void main(String[] args) {
         int a = 5, b = 10;
@@ -10,4 +10,5 @@ public class SwapBitwise {
 
         System.out.println("After swap: a=" + a + ", b=" + b);
     }
+
 }
