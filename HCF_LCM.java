@@ -1,4 +1,4 @@
-// Find HCF and LCM of two numbers
+// Java Program to Find HCF and LCM of Two Numbers
 public class HCF_LCM {
     static int gcd(int a, int b) {
         if (b == 0) return a;
@@ -13,4 +13,5 @@ public class HCF_LCM {
         System.out.println("HCF of " + a + " and " + b + " = " + hcf);
         System.out.println("LCM of " + a + " and " + b + " = " + lcm);
     }
+
 }
